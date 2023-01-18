@@ -1,0 +1,752 @@
+{
+    "jacket_size_Slim": [
+        {
+            "Size": 34,
+            "Coat Waist":35,
+            "Fit": "Slim",
+            "Score": [
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68
+            ]
+        },
+        {
+            "Size": 36,
+            "Coat Waist": 37,
+            "Fit": "Slim",
+            "Score": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72
+            ]
+        },
+        {
+            "Size": 38,
+            "Coat Waist": 39,
+            "Fit": "Slim",
+            "Score": [
+                72,
+                73,
+                74,
+                75,
+                76
+            ]
+        },
+        {
+            "Size": 40,
+            "Coat Waist": 41,
+            "Fit": "Slim",
+            "Score": [
+                76,
+                77,
+                78,
+                79,
+                80
+            ]
+        },
+        {
+            "Size": 42,
+            "Coat Waist": 43,
+            "Fit": "Slim",
+            "Score": [
+                80,
+                81,
+                82,
+                83,
+                84
+            ]
+        },
+        {
+            "Size": 44,
+            "Coat Waist": 45,
+            "Fit": "Slim",
+            "Score": [
+                84,
+                85,
+                86,
+                87,
+                88
+            ]
+        },
+        {
+            "Size": 46,
+            "Coat Waist": 47,
+            "Fit": "Slim",
+            "Score": [
+                88,
+                89,
+                90,
+                91,
+                92
+            ]
+        },
+        {
+            "Size": 48,
+            "Coat Waist": 49,
+            "Fit": "Slim",
+            "Score": [
+                92,
+                93,
+                94,
+                95,
+                96
+            ]
+        },
+        {
+            "Size": 50,
+            "Coat Waist": 51,
+            "Fit": "Slim",
+            "Score": [
+                96,
+                97,
+                98,
+                99,
+                100
+            ]
+        },
+        {
+            "Size": 52,
+            "Coat Waist": 53,
+            "Fit": "Slim",
+            "Score": [
+                100,
+                101,
+                102,
+                103,
+                104
+            ]
+        },
+        {
+            "Size": 54,
+            "Coat Waist": 55,
+            "Fit": "Slim",
+            "Score": [
+                104,
+                105,
+                106,
+                107,
+                108
+            ]
+        },
+        {
+            "Size": 56,
+            "Coat Waist": 57,
+            "Fit": "Slim",
+            "Score": [
+                108,
+                109,
+                110,
+                111,
+                112
+            ]
+        },
+        {
+            "Size": 58,
+            "Coat Waist": 59,
+            "Fit": "Slim",
+            "Score": [
+                112,
+                113,
+                114,
+                115,
+                116
+            ]
+        },
+        {
+            "Size": 60,
+            "Coat Waist": 61,
+            "Fit": "Slim",
+            "Score": [
+                116,
+                117,
+                118,
+                119,
+                120
+            ]
+        },
+        {
+            "Size": 62,
+            "Coat Waist": 63,
+            "Fit": "Slim",
+            "Score": [
+                120,
+                121,
+                122,
+                123,
+                124
+            ]
+        },
+        {
+            "Size": 64,
+            "Coat Waist": 65,
+            "Fit": "Slim",
+            "Score": [
+                124,
+                125,
+                126,
+                127,
+                128
+            ]
+        }
+    ],
+
+    "Jacket_size_Euro": [
+        {
+            "Size": 34,
+            "Coat Waist": 34,
+            "Fit": "Euro",
+            "Score": [60, 61, 62, 63, 64, 65, 66, 67]
+        },
+        {
+            "Size": 36,
+            "Coat Waist": 36,
+            "Fit": "Euro",
+            "Score": [66, 67, 68, 69, 70]
+        },
+        {
+            "Size": 38,
+            "Coat Waist": 38,
+            "Fit": "Euro",
+            "Score": [70, 71, 72, 73, 74]
+        },
+        {
+            "Size": 40,
+            "Coat Waist": 40,
+            "Fit": "Euro",
+            "Score": [74, 75, 76, 77, 78]
+        },
+        {
+            "Size": 42,
+            "Coat Waist": 42,
+            "Fit": "Euro",
+            "Score": [78, 79, 80, 81, 82]
+        },
+        {
+            "Size": 44,
+            "Coat Waist": 44,
+            "Fit": "Euro",
+            "Score": [82, 83, 84, 85, 86]
+        },
+        {
+            "Size": 46,
+            "Coat Waist": 46,
+            "Fit": "Euro",
+            "Score": [86, 87, 88, 89, 90]
+        },
+        {
+            "Size": 48,
+            "Coat Waist": 48,
+            "Fit": "Euro",
+            "Score": [90, 91, 92, 93, 94]
+        },
+        {
+            "Size": 50,
+            "Coat Waist": 50,
+            "Fit": "Euro",
+            "Score": [94, 95, 96, 97, 98]
+        },
+        {
+            "Size": 52,
+            "Coat Waist": 52,
+            "Fit": "Euro",
+            "Score": [98, 99, 100, 101, 102]
+        }
+    ],
+
+    "Jacket_size_Casual": [
+        {
+            "Size": 40,
+            "Coat Waist": 43,
+            "Fit": "Casual",
+             "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 42,
+            "Coat Waist": 45,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 44,
+            "Coat Waist": 47,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 46,
+            "Coat Waist": 49,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+
+        },
+        {
+            "Size": 48,
+            "Coat Waist": 51,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 50,
+            "Coat Waist": 53,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+
+        },
+        {
+            "Size": 52,
+            "Coat Waist": 55,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 54,
+            "Coat Waist": 57,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 56,
+            "Coat Waist": 59,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 58,
+            "Coat Waist": 61,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 60,
+            "Coat Waist": 63,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 62,
+            "Coat Waist": 65,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 64,
+            "Coat Waist": 67,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        }
+    ],
+
+    "Pant_Size_Slim": [
+        {
+            "Size": 28,
+            "Waist": 29,
+            "Seat": 36,
+            "Fit": "Slim",
+            "Score": [61, 62, 63, 64, 65, 66]
+        },
+        {
+            "Size": 30,
+            "Waist": 31,
+            "Seat": 38,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 32,
+            "Waist": 33,
+            "Seat": 40,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 34,
+            "Waist": 35,
+            "Seat": 42,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 36,
+            "Waist": 37,
+            "Seat": 44,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 38,
+            "Waist": 39,
+            "Seat": 46,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 40,
+            "Waist": 41,
+            "Seat": 48,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 42,
+            "Waist": 43,
+            "Seat": 50,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 44,
+            "Waist": 45,
+            "Seat": 52,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 46,
+            "Waist": 47,
+            "Seat": 53.5,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 48,
+            "Waist": 49,
+            "Seat": 55,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 50,
+            "Waist": 51,
+            "Seat": 56.5,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 52,
+            "Waist": 53,
+            "Seat": 58,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 54,
+            "Waist": 55,
+            "Seat": 59.5,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 56,
+            "Waist": 57,
+            "Seat": 61,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 58,
+            "Waist": 59,
+            "Seat": 63,
+            "Fit": "Slim",
+            "Score": [60, 61, 62, 63, 64]
+        }
+    ],
+
+    "Pant_Size_Euro": [
+        {
+            "Size": 28,
+            "Waist": 28.5,
+            "Seat": 36,
+            "Fit": "Euro",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 30,
+            "Waist": 30.5,
+            "Seat": 38,
+            "Fit": "Euro",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 32,
+            "Waist": 32.5,
+            "Seat": 40,
+            "Fit": "Euro",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 34,
+            "Waist": 34.5,
+            "Seat": 42,
+            "Fit": "Euro",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 36,
+            "Waist": 36.5,
+            "Seat": 44,
+            "Fit": "Euro",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 38,
+            "Waist": 38.5,
+            "Seat": 46,
+            "Fit": "Euro",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 40,
+            "Waist": 40.5,
+            "Seat": 48,
+            "Fit": "Euro",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 42,
+            "Waist": 42.5,
+            "Seat": 50,
+            "Fit": "Euro",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 44,
+            "Waist": 44.5,
+            "Seat": 50,
+            "Fit": "Euro",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 46,
+            "Waist": 46.5,
+            "Seat": 53.5,
+            "Fit": "Euro",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 48,
+            "Waist": 48.5,
+            "Seat": 55,
+            "Fit": "Euro",
+            "Score": [60, 61, 62, 63, 64]
+        }
+    ],
+
+    "Pant_Size_Casual": [
+        {
+            "Size": 34,
+            "Waist": 36,
+            "Seat": 43,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 36,
+            "Waist": 38,
+            "Seat": 45,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 38,
+            "Waist": 40,
+            "Seat": 47,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 40,
+            "Waist": 42,
+            "Seat": 49,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 42,
+            "Waist": 44,
+            "Seat": 51,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 44,
+            "Waist": 46,
+            "Seat": 53,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 46,
+            "Waist": 48,
+            "Seat": 55,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 48,
+            "Waist": 50,
+            "Seat": 57,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 50,
+            "Waist": 52,
+            "Seat": 59,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 52,
+            "Waist": 54,
+            "Seat": 61,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 54,
+            "Waist": 56,
+            "Seat": 63,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 56,
+            "Waist": 58,
+            "Seat": 65,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        },
+        {
+            "Size": 58,
+            "Waist": 60,
+            "Seat": 67,
+            "Fit": "Casual",
+            "Score": [60, 61, 62, 63, 64]
+        }
+    ],
+
+    "Shirt_Size": [
+        {
+        "Neck": 14,
+        "Chest": 37,
+        "Sleeve Length": [32, 33],
+        "Coat Waist": 34
+        },
+        {
+        "Neck": 14.5,
+        "Chest": 39,
+        "Sleeve Length": [32, 33],
+        "Coat Waist": 36
+        },
+        {
+        "Neck": 15,
+        "Chest": 41,
+        "Sleeve Length": [32, 33, 34, 35],
+        "Coat Waist": 38
+        },
+        {
+        "Neck": 15.5,
+        "Chest": 43,
+        "Sleeve Length": [32, 33, 34, 35],
+        "Coat Waist": 40
+        },
+        {
+        "Neck": 16,
+        "Chest": 45,
+        "Sleeve Length": [32, 33, 34, 35, 36, 37],
+        "Coat Waist": 42
+        },
+        {
+        "Neck": 16.5,
+        "Chest": 47,
+        "Sleeve Length": [32, 33, 34, 35, 36, 37],
+        "Coat Waist": 44
+        },
+        {
+        "Neck": 17,
+        "Chest": 49,
+        "Sleeve Length": [32, 33, 34, 35, 36, 37],
+        "Coat Waist": 46
+        },
+        {
+        "Neck": 17.5,
+        "Chest": 51,
+        "Sleeve Length": [32, 33, 34, 35, 36, 37],
+        "Coat Waist": 48
+        },
+        {
+        "Neck": 18,
+        "Chest": 53,
+        "Sleeve Length": [32, 33, 34, 35, 36, 37],
+        "Coat Waist": 50
+        },
+        {
+        "Neck": 18.5,
+        "Chest": 55,
+        "Sleeve Length": [32, 33, 34, 35, 36, 37],
+        "Coat Waist": 52
+        },
+        {
+        "Neck": 19,
+        "Chest": 57,
+        "Sleeve Length": [32, 33, 34, 35, 36, 37],
+        "Coat Waist": 54
+        },
+        {
+        "Neck": 19.5,
+        "Chest": 57,
+        "Sleeve Length": [32, 33, 34, 35, 36, 37],
+        "Coat Waist": 54
+        },
+        {
+        "Neck": 20,
+        "Chest": 60,
+        "Sleeve Length": [34, 35, 36, 37],
+        "Coat Waist": 57
+        },
+        {
+        "Neck": 20.5,
+        "Chest": 60,
+        "Sleeve Length": [34, 35, 36, 37],
+        "Coat Waist": 57
+        },
+        {
+        "Neck": 21,
+        "Chest": 60,
+        "Sleeve Length": [34, 35, 36, 37],
+        "Coat Waist": 57
+        },
+        {
+        "Neck": 21.5,
+        "Chest": 60,
+        "Sleeve Length": [34, 35, 36, 37],
+        "Coat Waist": 57
+        },
+        {
+        "Neck": 22,
+        "Chest": 60,
+        "Sleeve Length": [34, 35, 36, 37],
+        "Coat Waist": 57
+        },
+        {
+        "Neck": 22.5,
+        "Chest": 60,
+        "Sleeve Length": [34, 35, 36, 37],
+        "Coat Waist": 57
+        },
+        {
+        "Neck": 23,
+        "Chest": 66,
+        "Sleeve Length": [34, 35, 36, 37],
+        "Coat Waist": 64
+        }
+    ]
+}
