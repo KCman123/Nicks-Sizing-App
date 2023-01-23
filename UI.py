@@ -158,6 +158,7 @@ def run():
     chest_input = float(chestUI_Temp.get())
     chest = round(float(str(chestUI_Temp.get())))
     coat_waist = float(str(coatWaistUI_Temp.get()))
+    waist_input = float(str(waistUI_Temp.get()))
     waist = round(float(str(waistUI_Temp.get())))
     seat = float(str(seatUI_Temp.get()))
     neck = round(float(str(neckUI_Temp.get())), 1)
@@ -188,6 +189,8 @@ def run():
     shirt_size = size.find_shirt_size(neck, chest, coat_waist)
     shirt_size_and_sleeve = size.find_shirt_sleeve_Length(shirt_size, sleeve)
     shirt_label = Label(mainWindow, text="Shirt Size: " + str(shirt_size_and_sleeve))
+
+    size.red_flags(feet, inches, weight, chest_input, chest, coat_waist, waist, seat, shirt_size, sleeve, finalPantSize, jacketSize2, waist_input)
 
     jacketLabel.grid(row=0, column=3)
     jacketLengthLabel.grid(row=0, column=4)

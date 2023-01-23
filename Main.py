@@ -1,4 +1,7 @@
 import json
+from email.message import EmailMessage
+import ssl
+import smtplib
 
 # open json file
 with open('ClothingSpecs.json') as f:
@@ -827,6 +830,7 @@ def find_shirt_size(neck, chest, coat_waist):
                                                                 shirt_fit = False
 
 
+# Find Shirt Sleeve Length
 def find_shirt_sleeve_Length(shirt_size, sleeve):
     if sleeve < 32:
         sleeve = 33
@@ -886,3 +890,182 @@ def find_shirt_sleeve_Length(shirt_size, sleeve):
                                                         if sleeve > longest_sleeve:
                                                             sleeve = longest_sleeve
                                                             return shirt_size, sleeve
+
+
+# Red Flags
+def red_flags(feet, inches, weight, chest_input, chest, coat_waist, waist, waist_input, seat, shirt_size, sleeve, finalPantSize, jacketSize2):
+    shouldShirtSleeveLength = []
+
+    red_flags = ""
+
+    # Checks for Splits
+    if (jacketSize2 - finalPantSize) == 6:
+        print("")
+    else:
+        pant_split_flag = "\n Double check that pant split is necessary"
+
+        red_flags += pant_split_flag
+
+    # Checks for red flags with shirt sleeve length
+    if feet == 4:
+
+        # initialize sleeve array
+        shouldShirtSleeveLength = [28, 29, 30, 31, 32, 33]
+
+        if sleeve in shouldShirtSleeveLength:
+            print("")
+        else:
+            # redflag
+            shirt_sleeve_dont_match_height = "\n height does not match shirt sleeve length "
+            red_flags += shirt_sleeve_dont_match_height
+    elif feet == 5 and inches < 10:
+        # initialize sleeve array
+        shouldShirtSleeveLength = [28, 29, 30, 31, 32, 33]
+
+        if sleeve in shouldShirtSleeveLength:
+            print("")
+        else:
+            # redflag
+            shirt_sleeve_dont_match_height = "\n height does not match shirt sleeve length "
+            red_flags += shirt_sleeve_dont_match_height
+    elif feet == 5 and inches >= 10:
+        # initialize sleeve array
+        shouldShirtSleeveLength = [34, 35]
+
+        if sleeve in shouldShirtSleeveLength:
+            print("")
+        else:
+            # redflag
+            shirt_sleeve_dont_match_height = "\n height does not match shirt sleeve length "
+            red_flags += shirt_sleeve_dont_match_height
+    elif feet == 6 and inches <= 1:
+        # initialize sleeve array
+        shouldShirtSleeveLength = [34, 35]
+
+        if sleeve in shouldShirtSleeveLength:
+            print("")
+        else:
+            # redflag
+            shirt_sleeve_dont_match_height = "\n height does not match shirt sleeve length "
+            red_flags += shirt_sleeve_dont_match_height
+    elif feet == 6 and inches > 2:
+        # initialize sleeve array
+        shouldShirtSleeveLength = [36, 37]
+
+        if sleeve in shouldShirtSleeveLength:
+            print("")
+        else:
+            # redflag
+            shirt_sleeve_dont_match_height = "\n height does not match shirt sleeve length "
+            red_flags += shirt_sleeve_dont_match_height
+    elif feet == 7:
+        # initialize sleeve array
+        shouldShirtSleeveLength = [36, 37]
+
+        if sleeve in shouldShirtSleeveLength:
+            print("")
+        else:
+            # redflag
+            shirt_sleeve_dont_match_height = "\n height does not match shirt sleeve length "
+            red_flags += shirt_sleeve_dont_match_height
+
+    # Checks if user input for the pants is within spec
+    if seat < waist:
+        seat_greater_then_waist_flag = "\n Customer measured incorrectly please double check"
+        red_flags += seat_greater_then_waist_flag
+    if seat - waist < 2:
+        seat_too_small_flag = "\n Waist and seat measurements are to close please double check"
+        red_flags += seat_too_small_flag
+    if seat - waist > 8:
+        seat_too_big_flag = "\n Waist and seat measurements are to far apart please double check"
+        red_flags += seat_too_big_flag
+
+    # Checks if user input for jackets is within spec
+    if abs(chest_input - coat_waist) > 8:
+        coat_waist_too_small_flag = "\n chest and coat waist measurements are to far apart please double check"
+        red_flags += coat_waist_too_small_flag
+
+    # Checks height amd weight and compares to jacket
+
+    # checks shirt size and compares to jacket
+    if shirt_size == 14 or 14.5:
+        if jacketSize2 == 34 or 36 or 38:
+            print("")
+        else:
+            shirt_and_jacket_flag = "\n Shirt size and Jacket size dont match please double check"
+            red_flags += shirt_and_jacket_flag
+    elif shirt_size == 15 or 15.5:
+        if jacketSize2 == 36 or 38 or 40:
+            print("")
+        else:
+            shirt_and_jacket_flag = "\n Shirt size and Jacket size dont match please double check"
+            red_flags += shirt_and_jacket_flag
+    elif shirt_size == 16 or 16.5:
+        if jacketSize2 == 38 or 40 or 42 or 44:
+            print("")
+        else:
+            shirt_and_jacket_flag = "\n Shirt size and Jacket size dont match please double check"
+            red_flags += shirt_and_jacket_flag
+    elif shirt_size == 17 or 17.5:
+        if jacketSize2 == 42 or 44 or 46 or 48:
+            print("")
+        else:
+            shirt_and_jacket_flag = "\n Shirt size and Jacket size dont match please double check"
+            red_flags += shirt_and_jacket_flag
+    elif shirt_size == 18 or 18.5:
+        if jacketSize2 == 46 or 48 or 50 or 52:
+            print("")
+        else:
+            shirt_and_jacket_flag = "\n Shirt size and Jacket size dont match please double check"
+            red_flags += shirt_and_jacket_flag
+    elif shirt_size == 19 or 19.5:
+        if jacketSize2 == 52 or 54 or 56:
+            print("")
+        else:
+            shirt_and_jacket_flag = "\n Shirt size and Jacket size dont match please double check"
+            red_flags += shirt_and_jacket_flag
+    elif shirt_size == 20 or 20.5:
+        if jacketSize2 == 54 or 56 or 58:
+            print("")
+        else:
+            shirt_and_jacket_flag = "\n Shirt size and Jacket size dont match please double check"
+            red_flags += shirt_and_jacket_flag
+    elif shirt_size == 22 or 22.5:
+        if jacketSize2 == 58 or 60 or 62:
+            print("")
+        else:
+            shirt_and_jacket_flag = "\n Shirt size and Jacket size dont match please double check"
+            red_flags += shirt_and_jacket_flag
+    elif shirt_size == 23:
+        if jacketSize2 == 58 or 60 or 62 or 64:
+            print("")
+        else:
+            shirt_and_jacket_flag = "\n Shirt size and Jacket size dont match please double check"
+            red_flags += shirt_and_jacket_flag
+    # Email Logic
+    if red_flags != "":
+
+        red_flags_Measurements = ""
+        red_flags_Measurements += "Feet: " + str(feet) + " " + str(inches) + "\n " + "Jacket: " + str(jacketSize2) + " " + "Chest: " + str(chest_input) + " " + "Coat Waist: " + str(coat_waist) + "\n " + "Pant: " + str(finalPantSize) + " " + "Waist: " + str(waist_input) + " " + "Seat: " + str(seat) + "\n " + "Shirt " + str(shirt_size) + " " + str(sleeve) + "\n "
+
+        red_flags_Measurements += red_flags
+
+        email_sender = "redflagedfittings@nicksmenswear.com"
+        email_password = "nxegcuitbodukkwb"
+        email_receiver = "rico@nicksmenswear.com"
+
+        subject = "Red Flag Fitting"
+        body = red_flags_Measurements
+
+        em = EmailMessage()
+        em["From"] = email_sender
+        em["To"] = email_receiver
+        em["Subject"] = subject
+        em.set_content(body)
+
+        context = ssl.create_default_context()
+
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as smtp:
+            smtp.login(email_sender, email_password)
+            smtp.sendmail(email_sender, email_receiver, em.as_string())
+
